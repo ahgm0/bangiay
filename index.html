@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOES SALE!!!</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-align">
+                <div class="header-left">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="" class="logo-img"> AH STORE
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="" class="nav-link">MAN</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">WOMAN</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">KIDS</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">SALE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-right">
+                    <button type="button" class="login-butt">Login</button> / <button type="button"
+                        class="signup-butt">Sign up</button>
+                    <button type="button"><i class='far fa-heart'></i></button>
+                    <button type="button"><i class="fa-solid fa-bag-shopping"></i></button>
+                    <div class="search">
+                        <input type="text" class="search-box" placeholder="search product">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <section class="content">
+            <div class="content-align">
+                <div class="giay-container">
+                    <div class="giay-track">
+                        <img src="img/giay1.png" alt="Product Image 1" class="giay-image">
+                        <img src="img/giay2.png" alt="Product Image 2" class="giay-image">
+                        <img src="img/giay3.png" alt="Product Image 3" class="giay-image">
+                        <img src="img/giay4.png" alt="Product Image 4" class="giay-image">
+                        <img src="img/giay5.png" alt="Product Image 5" class="giay-image">
+                    </div>
+                    <div class="giay-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                        <span class="dot" data-slide="3"></span>
+                        <span class="dot" data-slide="4"></span>
+                    </div>
+                    <button class="giay-btn prev-btn">&laquo;</button>
+                    <button class="giay-btn next-btn">&raquo;</button>
+                </div>
+                <div class="info-product">
+                    <div class="catetory">MEN/LIFESTYLE/SNEAKER/LOW TOP</div>
+                    <div class="productcode">PRODUCT CODE: 12678ASFG</div>
+                    <h1>CANVAS SNEAKER - BLACK</h1>
+                    <span class="price-star">
+                        <p class="price"> $ 70 / € 65</p>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        17 reviews
+                    </span>
+                    <p class="product-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure placeat nisi
+                        a facere quae recusandae. Non numquam veritatis vel magnam placeat voluptatum quibusdam deserunt
+                        expedita at laudantium. Atque, officia dolore.</p>
+                    <div class="buy">
+                        <span>SIZE</span>
+                        <select name="location" id="location">
+                            <option value="">--location--</option>
+                            <option value="uk">UK</option>
+                            <option value="uk">UK</option>
+                            <option value="uk">UK</option>
+                            <option value="uk">UK</option>
+                            <option value="uk">UK</option>
+                        </select>
+                        <select name="size" id="size">
+                            <option value="">--SIZE--</option>
+                            <option value="s">S</option>
+                            <option value="xs">XS</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                            <option value="xxxl">XXXL</option>
+                        </select>
+                        <span>SIZE GUIDE</span>
+                        <button type="button">ADD TO CART</button>
+                        <button type="button">ADD TO CART</button>
+                    </div>
+                    <h3>DELIVERRY ESTIMATE</h3>
+                    <p>Read our Term and Conditions</p>
+                </div>
+                <div class="variations">
+                    <span>OTHER VARIATIONS</span>
+                    <div class="variation-frame">
+                        <img src="img/giay1.png" alt="" class="variation-img">
+                        <img src="img/giay2.png" alt="" class="variation-img">
+                        <img src="img/giay3.png" alt="" class="variation-img">
+                    </div>
+                </div>
+                <div class="tab-container">
+                    <ul class="tabs">
+                        <li class="tab active" data-tab="detail">DETAIL</li>
+                        <li class="tab" data-tab="size">SIZE DETAIL</li>
+                        <li class="tab" data-tab="return">RETURN POLICY</li>
+                        <li class="tab" data-tab="delivery">DELIVERY INFO</li>
+                    </ul>
+
+                    <div id="detail" class="tab-content active">
+                        <table>
+                            <tr>
+                                <td>SKU</td>
+                                <td>ASDK12453570BXZ</td>
+                            </tr>
+                            <tr>
+                                <td>Upper Material</td>
+                                <td>Leather</td>
+                            </tr>
+                            <tr>
+                                <td>Inner Material</td>
+                                <td>Leather</td>
+                            </tr>
+                            <tr>
+                                <td>Sole Material</td>
+                                <td>Synthetic</td>
+                            </tr>
+                            <tr>
+                                <td>Inner Sole Material</td>
+                                <td>Synthetic</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="size" class="tab-content">
+                        <p>Size details will be shown here.</p>
+                    </div>
+
+                    <div id="return" class="tab-content">
+                        <p>Return policy information goes here.</p>
+                    </div>
+
+                    <div id="delivery" class="tab-content">
+                        <p>Delivery information is displayed here.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
